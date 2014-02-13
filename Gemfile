@@ -24,10 +24,12 @@ gem 'jquery-rails'
 
 gem 'backbone-on-rails'
 gem 'marionette-rails'
+gem 'puma'
 
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
+  gem 'coffee-rails-source-maps'
   gem 'guard-bundler'
   gem 'guard-rails'
   gem 'guard-rspec', require: false
